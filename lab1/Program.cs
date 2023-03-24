@@ -72,6 +72,40 @@ Console.WriteLine($"Reg number: {studentRegNumber} \tAccount number: {accountNum
 Console.WriteLine($@"                                Program: {program}");
  
 
+//basic math
+int num1 = 5;
+int num2 = 10;
+Console.WriteLine($"Addition {num1} + {num2}: {num1 + num2}");
+Console.WriteLine($"Subtraction {num1} - {num2}: {num1 - num2}");
+Console.WriteLine($"Multiplication {num1} * {num2}: {num1 * num2}");
+Console.WriteLine($"Division {num1} / {num2}: {num1 / num2}");
+Console.WriteLine($"Modulus {num1} % {num2}: {num1 % num2}");
+
+//incre && decre
+
+Console.WriteLine($"Pre-Increment {num1}: {++num1}");
+Console.WriteLine($"Pre-Increment {num2}: {++num2}");
+
+Console.WriteLine($"Pre-Decrement {num1}: {--num1}");
+Console.WriteLine($"Pre-Decrement {num2}: {--num2}");
+
+
+Console.WriteLine($"Post-Increment {num1}: {num1++}");
+Console.WriteLine($"Post-Increment {num2}: {num2++}");
+
+Console.WriteLine($"Post-Decrement {num1}: {num1--}");
+Console.WriteLine($"Post-Decrement {num2}: {num2--}");
+
+
+
+
+//exercise
+
+
+
+
+
+
 
 
 
