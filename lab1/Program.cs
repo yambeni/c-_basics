@@ -73,8 +73,12 @@ Console.WriteLine($@"                                Program: {program}");
  
 
 //basic math
+Console.WriteLine("\nBasci Maths");
+Console.WriteLine("-------------------------------------");
+
 int num1 = 5;
 int num2 = 10;
+
 Console.WriteLine($"Addition {num1} + {num2}: {num1 + num2}");
 Console.WriteLine($"Subtraction {num1} - {num2}: {num1 - num2}");
 Console.WriteLine($"Multiplication {num1} * {num2}: {num1 * num2}");
@@ -82,14 +86,16 @@ Console.WriteLine($"Division {num1} / {num2}: {num1 / num2}");
 Console.WriteLine($"Modulus {num1} % {num2}: {num1 % num2}");
 
 //incre && decre
-
+Console.WriteLine("\nPre-Increment & Pre-Decrement ");
+Console.WriteLine("-------------------------------------");
 Console.WriteLine($"Pre-Increment {num1}: {++num1}");
 Console.WriteLine($"Pre-Increment {num2}: {++num2}");
 
 Console.WriteLine($"Pre-Decrement {num1}: {--num1}");
 Console.WriteLine($"Pre-Decrement {num2}: {--num2}");
 
-
+Console.WriteLine("\nPost-Increment & Post-Decrement ");
+Console.WriteLine("-------------------------------------");
 Console.WriteLine($"Post-Increment {num1}: {num1++}");
 Console.WriteLine($"Post-Increment {num2}: {num2++}");
 
@@ -97,25 +103,10 @@ Console.WriteLine($"Post-Decrement {num1}: {num1--}");
 Console.WriteLine($"Post-Decrement {num2}: {num2--}");
 
 
-
-
 //exercise
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//temperature converter
+Console.WriteLine("\nTemperature Converter");
+Console.WriteLine("-------------------------------------");
+int fahrenheit = 94;
+decimal temperature = (decimal)(fahrenheit - 32) * 5 / 9;
+Console.WriteLine($"The temperature is {temperature} Celsius");
