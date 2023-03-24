@@ -18,8 +18,8 @@ lastName = "Madzalo";
 Console.WriteLine(firstName);
 Console.WriteLine(lastName);
 
-// int, float, decimal bool
-Console.WriteLine("\nIntegers, float, decimal, bolean");
+// int, float, decimal bool, char
+Console.WriteLine("\nIntegers, float, decimal, bolean, char");
 Console.WriteLine("-------------------------------------");
 
 
@@ -27,11 +27,14 @@ int age = 21;
 float length = 294302f;
 decimal width = 2.0m;
 bool isRegistered = true;
+char letter = 'b';
 
 Console.WriteLine("age: "+ age);
 Console.WriteLine("length: "+ length);
 Console.WriteLine("width: "+ width);
 Console.WriteLine("is registered: "+ isRegistered);
+Console.WriteLine("letter: "+letter);
+
 
 // var
 Console.WriteLine("\nImplicitly typed local variable");
@@ -57,6 +60,20 @@ Console.WriteLine("Her name is \"Mirriam\"");
 
 Console.WriteLine("\nInterpolation, verbatim");
 Console.WriteLine("-------------------------------------");
+
+string studentFirstName = "Mirriam";
+string studentLastName = "Yambeni";
+string studentRegNumber = "BSC/COM/32/19";
+long accountNumber = 21974681364911;
+string program = "BSC Computer Science";
+
+Console.WriteLine($"First name: {studentFirstName} \t\tLast name: {studentLastName}");
+Console.WriteLine($"Reg number: {studentRegNumber} \tAccount number: {accountNumber}");
+Console.WriteLine($@"                                Program: {program}");
+ 
+
+
+
 
 
 
